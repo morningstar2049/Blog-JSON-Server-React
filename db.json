@@ -1,12 +1,68 @@
 {
   "users": [
     {
-      "email": "irakli",
+      "email": "irakli@gmail.com",
       "pass": "12345678",
-      "name": "irakli@gmail.com",
+      "name": "irakli",
       "posts": [],
       "date": "14:22 15/5/2023",
       "id": 1
+    },
+    {
+      "email": "irakli@gmail.com",
+      "pass": "12345678",
+      "name": "irakli",
+      "posts": [],
+      "date": "14:22 15/5/2023",
+      "id": 2
+    },
+    {
+      "email": "irakli@gmail.com",
+      "pass": "12345678",
+      "name": "irakli",
+      "posts": [],
+      "date": "14:22 15/5/2023",
+      "id": 3
+    },
+    {
+      "email": "irakli@gmail.com",
+      "pass": "12345678",
+      "name": "irakli",
+      "posts": [],
+      "date": "14:22 15/5/2023",
+      "id": 4
+    },
+    {
+      "email": "irakli@gmail.com",
+      "pass": "12345678",
+      "name": "irakli",
+      "posts": [],
+      "date": "14:22 15/5/2023",
+      "id": 5
+    },
+    {
+      "email": "irakli@gmail.com",
+      "pass": "12345678",
+      "name": "irakli",
+      "posts": [],
+      "date": "14:22 15/5/2023",
+      "id": 6
+    },
+    {
+      "email": "irakli@gmail.com",
+      "pass": "12345678",
+      "name": "irakli",
+      "posts": [],
+      "date": "14:22 15/5/2023",
+      "id": 7
+    },
+    {
+      "email": "irakli@gmail.com",
+      "pass": "12345678",
+      "name": "irakli",
+      "posts": [],
+      "date": "14:22 15/5/2023",
+      "id": 8
     }
   ],
   "posts": [
