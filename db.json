@@ -7,6 +7,62 @@
       "posts": [],
       "date": "14:22 15/5/2023",
       "id": 1
+    },
+    {
+      "email": "vaxo@gmail.com",
+      "password": "asdfasdfa",
+      "image": "vaxtankgigiasdasd",
+      "name": "vaxo",
+      "date": "16:3 15/5/2023",
+      "id": 2
+    },
+    {
+      "email": "123",
+      "password": "123",
+      "image": "123",
+      "name": "123",
+      "date": "16:7 15/5/2023",
+      "id": 3
+    },
+    {
+      "email": "asd",
+      "password": "asd",
+      "image": "asd",
+      "name": "asd",
+      "date": "17:6 15/5/2023",
+      "id": 4
+    },
+    {
+      "email": "giorgi@g.g",
+      "password": "1",
+      "image": "https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg",
+      "name": "giorgi",
+      "date": "17:11 15/5/2023",
+      "id": 5
+    },
+    {
+      "email": "1@s",
+      "password": "1",
+      "image": "https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg",
+      "name": "1",
+      "date": "17:14 15/5/2023",
+      "id": 6
+    },
+    {
+      "email": "2@s",
+      "password": "2",
+      "image": "https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg",
+      "name": "2",
+      "date": "17:15 15/5/2023",
+      "id": 7
+    },
+    {
+      "email": "3@3",
+      "password": "3",
+      "image": "https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg",
+      "name": "3",
+      "date": "17:24 15/5/2023",
+      "id": 8
     }
   ],
   "posts": [

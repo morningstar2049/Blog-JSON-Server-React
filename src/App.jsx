@@ -7,14 +7,18 @@ import Post from "./Components/Post";
 import MostLikedPosts from "./Components/MostLikedPosts";
 
 export default class App extends Component {
-  // loginOpen=() =>{
-  //   this.setState(prevState => ({loginOpen: !prevState.loginOpen}))
-  // }
+  state = {
+    currentProfile: false,
+  };
+
+  log = (current) => {
+    this.setState({ currentProfile: current });
+  };
 
   render() {
     return (
       <div>
-        <Nav />
+        <Nav currentProfile={this.state.currentProfile} log={this.log} />
 
         <Routes>
           <Route path="/" element={<Main />} />
