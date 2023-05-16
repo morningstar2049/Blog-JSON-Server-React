@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { useParams } from "react-router-dom";
+import { withParams } from "../hoc/withParams";
 
 class Profile extends Component {
   state = {
@@ -39,4 +39,4 @@ class Profile extends Component {
 }
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default (props) => <Profile {...props} params={useParams()} />;
+export default withParams(Profile);

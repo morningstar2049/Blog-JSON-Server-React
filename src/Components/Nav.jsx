@@ -19,10 +19,12 @@ export default class Nav extends Component {
   render() {
     return (
       <div className="flex justify-between px-6 py-5 bg-[#343A40] items-center text-white">
-        <Link to="/">blog</Link>
-        <div className="flex gap-2">
-          <h2>authors</h2>
-          <h2>most liked</h2>
+        <Link to="/">
+          <strong>Blog</strong>
+        </Link>
+        <div className="flex gap-10">
+          <Link to="/">Authors</Link>
+          <Link to="mostLikedPosts">Most liked</Link>
         </div>
         {this.props.currentProfile ? (
           <div className="flex gap-4 items-center">
