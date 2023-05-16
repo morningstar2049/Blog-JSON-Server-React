@@ -95,11 +95,151 @@
       "name": "alexa",
       "date": "May 15th 2023, 6:12:42 pm",
       "id": 12
+    },
+    {
+      "email": "2",
+      "password": "4",
+      "image": "2",
+      "name": "4@4",
+      "date": "May 16th 2023, 11:07:17 am",
+      "id": 13
     }
   ],
   "posts": [
     {
-      "author": "blabla"
+      "name": "1",
+      "content": "2",
+      "date": "May 16th 2023, 11:28:31 am",
+      "author": "gurika",
+      "likes": 0,
+      "id": 0,
+      "authorId": 9
+    },
+    {
+      "name": "123123",
+      "content": "1231231231231",
+      "date": "May 16th 2023, 12:31:14 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 1
+    },
+    {
+      "name": "asd",
+      "content": "asdasdasd",
+      "date": "May 16th 2023, 1:58:57 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 2
+    },
+    {
+      "name": "asdasdasdasd",
+      "content": "zxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxc",
+      "date": "May 16th 2023, 2:01:07 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 3
+    },
+    {
+      "name": "irakli",
+      "content": "asd",
+      "date": "May 16th 2023, 2:02:02 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 4
+    },
+    {
+      "name": "asd",
+      "content": "asd",
+      "date": "May 16th 2023, 2:02:35 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 5
+    },
+    {
+      "name": "asdf",
+      "content": "adsfasdf",
+      "date": "May 16th 2023, 2:03:07 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 6
+    },
+    {
+      "name": "asdasd",
+      "content": "asdasdasd",
+      "date": "May 16th 2023, 2:03:50 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 7
+    },
+    {
+      "name": "asdasd",
+      "content": "asdasdasdzxczxczxczxcasd",
+      "date": "May 16th 2023, 2:05:19 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 8
+    },
+    {
+      "name": "asd",
+      "content": "asd",
+      "date": "May 16th 2023, 2:07:20 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 9
+    },
+    {
+      "name": "s",
+      "content": "s",
+      "date": "May 16th 2023, 2:07:37 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 10
+    },
+    {
+      "name": "eee",
+      "content": "eeee",
+      "date": "May 16th 2023, 2:07:40 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 11
+    },
+    {
+      "name": "5555",
+      "content": "5555",
+      "date": "May 16th 2023, 2:08:16 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 12
+    },
+    {
+      "name": "67676",
+      "content": "6767676",
+      "date": "May 16th 2023, 2:08:20 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 13
+    },
+    {
+      "name": "irakli",
+      "content": "asdasd",
+      "date": "May 16th 2023, 2:23:38 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 14
     }
   ]
 }

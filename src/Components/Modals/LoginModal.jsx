@@ -38,12 +38,6 @@ export default class LoginModal extends Component {
     }
   };
 
-  componentDidMount() {
-    fetch("http://localhost:3000/users")
-      .then((resp) => resp.json())
-      .then((data) => this.setState({ data: data }));
-  }
-
   render() {
     return (
       <Modal open={this.props.open} onClose={this.props.onClose}>

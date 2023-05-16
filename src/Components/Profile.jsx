@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { useParams } from "react-router-dom";
+import ProfileContainer from "./ProfileContainer";
+import AddPost from "./AddPost";
+import Post from "./Post";
 
 class Profile extends Component {
   state = {
@@ -7,32 +10,38 @@ class Profile extends Component {
     currentPosts: [],
   };
 
+  fetchPosts = () => {
+    const { profileId } = this.props.params;
+    fetch(`http://localhost:3000/posts?authorId=${profileId}`)
+      .then((res) => res.json())
+      .then((data) => this.setState({ currentPosts: data }));
+  };
+
   componentDidMount() {
     const { profileId } = this.props.params;
     fetch(`http://localhost:3000/users/${profileId}`)
       .then((res) => res.json())
-      .then((data) => this.setState({ currentProfile: data }));
-
-    // TODO: Fetch posts of the current user
+      .then((data) => {
+        this.setState({ currentProfile: data });
+      });
+    this.fetchPosts();
   }
+
   render() {
     return (
       <div className=" p-[50px]">
-        <div className=" flex flex-col">
-          <img
-            src={this.state.currentProfile.image}
-            alt="img"
-            className="w-[100px]"
+        {this.props.loggedUserId === this.state.currentProfile.id ? (
+          <AddPost
+            currentProfile={this.state.currentProfile}
+            fetchPosts={this.fetchPosts}
           />
-          <div>
-            {this.state.currentProfile.name} id: {this.state.currentProfile.id}
-          </div>
-          <div>Posts: {this.state.currentPosts.length}</div>
-          <div>Likes: 0</div>
-        </div>
-        <p>
-          <strong>Posts</strong>
-        </p>
+        ) : (
+          <ProfileContainer
+            currentProfile={this.state.currentProfile}
+            currentPosts={this.state.currentPosts}
+          />
+        )}
+        <Post currentPosts={this.state.currentPosts} />
       </div>
     );
   }

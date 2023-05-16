@@ -13,12 +13,6 @@ export default class SIgnUpModal extends Component {
     error: "",
   };
 
-  // componentDidMount() {
-  //   fetch("http://localhost:3000/users")
-  //     .then((resp) => resp.json())
-  //     .then((data) => this.setState({ data: data }));
-  // }
-
   postData = () => {
     if (
       !this.state.name ||
