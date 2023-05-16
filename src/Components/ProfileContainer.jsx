@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class ProfileContainer extends Component {
   getTotalLikes = () => {
     return this.props.currentPosts.reduce((acc, cur) => {
-      return acc + cur.likes;
+      return acc + cur.likes.length;
     }, 0);
   };
   render() {

@@ -103,152 +103,27 @@
       "name": "4@4",
       "date": "May 16th 2023, 11:07:17 am",
       "id": 13
+    },
+    {
+      "email": "123@123",
+      "password": "123",
+      "image": "https://gba.ge/image/500x500/5c88ba60b73f4.jpg",
+      "name": "sondzgva",
+      "date": "May 16th 2023, 5:14:29 pm",
+      "id": 14
     }
   ],
   "posts": [
     {
-      "name": "1",
-      "content": "2",
-      "date": "May 16th 2023, 11:28:31 am",
-      "author": "gurika",
-      "likes": 0,
-      "id": 0,
-      "authorId": 9
-    },
-    {
-      "name": "123123",
-      "content": "1231231231231",
-      "date": "May 16th 2023, 12:31:14 pm",
+      "name": "synthesizing Branding Heard Island and McDonald Islands",
+      "content": "Voluptatibus libero ratione totam. Accusamus soluta optio quo. Iusto quo qui ea nulla qui ut quis vel et. Ut quo quo omnis in illum dolore placeat. Illum reprehenderit et tempore a soluta similique laboriosam corrupti nesciunt. Quia et placeat. Corporis aperiam eos unde et maxime sint quod atque. Ea tempore et iure totam vel sunt similique autem ea. Quod assumenda reprehenderit quo deserunt at beatae enim quis unde. Quis et optio quis et illo. Ex non qui rerum in non at. Ullam et mollitia velit. Et consequatur est magnam neque ipsa laboriosam suscipit veniam. Natus necessitatibus impedit. Animi corporis sint quo. Culpa esse ut quod quo. Et et maiores tenetur et ab possimus excepturi adipisci illo. Modi error minima. A ut magni dolorum. Deserunt nihil dolores. Impedit veniam ut enim laudantium ut. Facere quis saepe et dolorem corrupti eveniet qui quisquam. Voluptatum repellendus excepturi libero beatae. Id tenetur atque dolore. In quasi consequuntur ad. Ut aperiam sit reprehenderit consequatur.\n",
+      "date": "May 16th 2023, 4:03:12 pm",
       "author": "3",
-      "likes": 0,
+      "likes": [
+        3
+      ],
       "authorId": 8,
-      "id": 1
-    },
-    {
-      "name": "asd",
-      "content": "asdasdasd",
-      "date": "May 16th 2023, 1:58:57 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 2
-    },
-    {
-      "name": "asdasdasdasd",
-      "content": "zxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxczxcvzxcvzxcvzxcvzxc",
-      "date": "May 16th 2023, 2:01:07 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 3
-    },
-    {
-      "name": "irakli",
-      "content": "asd",
-      "date": "May 16th 2023, 2:02:02 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 4
-    },
-    {
-      "name": "asd",
-      "content": "asd",
-      "date": "May 16th 2023, 2:02:35 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 5
-    },
-    {
-      "name": "asdf",
-      "content": "adsfasdf",
-      "date": "May 16th 2023, 2:03:07 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 6
-    },
-    {
-      "name": "asdasd",
-      "content": "asdasdasd",
-      "date": "May 16th 2023, 2:03:50 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 7
-    },
-    {
-      "name": "asdasd",
-      "content": "asdasdasdzxczxczxczxcasd",
-      "date": "May 16th 2023, 2:05:19 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 8
-    },
-    {
-      "name": "asd",
-      "content": "asd",
-      "date": "May 16th 2023, 2:07:20 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 9
-    },
-    {
-      "name": "s",
-      "content": "s",
-      "date": "May 16th 2023, 2:07:37 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 10
-    },
-    {
-      "name": "eee",
-      "content": "eeee",
-      "date": "May 16th 2023, 2:07:40 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 11
-    },
-    {
-      "name": "5555",
-      "content": "5555",
-      "date": "May 16th 2023, 2:08:16 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 12
-    },
-    {
-      "name": "67676",
-      "content": "6767676",
-      "date": "May 16th 2023, 2:08:20 pm",
-      "author": "3",
-      "likes": 15,
-      "authorId": 8,
-      "id": 13
-    },
-    {
-      "name": "irakli",
-      "content": "asdasd",
-      "date": "May 16th 2023, 2:23:38 pm",
-      "author": "3",
-      "likes": 20,
-      "authorId": 8,
-      "id": 14
-    },
-    {
-      "name": "posttt",
-      "content": "content",
-      "date": "May 16th 2023, 3:17:23 pm",
-      "author": "3",
-      "likes": 0,
-      "authorId": 8,
-      "id": 15
+      "id": 0
     }
   ]
 }

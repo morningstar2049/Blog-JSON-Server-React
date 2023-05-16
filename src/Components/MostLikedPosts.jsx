@@ -25,7 +25,7 @@ export default class MostLikedPosts extends Component {
           <PostContainer
             name={post.name}
             date={post.date}
-            likes={post.likes}
+            likes={post.likes.length}
             key={post.id}
             id={`/posts/${post.id}`}
           />

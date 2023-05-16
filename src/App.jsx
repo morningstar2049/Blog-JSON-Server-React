@@ -42,7 +42,10 @@ export default class App extends Component {
             path="/profile/:profileId"
             element={<Profile loggedUserId={this.state.currentProfile.id} />}
           />
-          <Route path="/posts/:postId" element={<PostDetail />} />
+          <Route
+            path="/posts/:postId"
+            element={<PostDetail currentProfile={this.state.currentProfile} />}
+          />
           <Route path="/mostLikedPosts" element={<MostLikedPosts />} />
         </Routes>
       </div>

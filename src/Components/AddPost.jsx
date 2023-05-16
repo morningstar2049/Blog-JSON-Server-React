@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import moment from "moment";
 
-export default class extends Component {
+export default class Gela extends Component {
   state = {
     name: "",
     content: "",
@@ -22,7 +22,7 @@ export default class extends Component {
         content: this.state.content,
         date: moment().format("MMMM Do YYYY, h:mm:ss a"),
         author: this.props.currentProfile.name,
-        likes: 0,
+        likes: [],
         authorId: this.props.currentProfile.id,
       };
       fetch("http://localhost:3000/posts", {

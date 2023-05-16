@@ -19,7 +19,7 @@ export default class Post extends Component {
                 key={item.id}
                 name={item.name}
                 date={item.date}
-                likes={item.likes}
+                likes={item.likes.length}
                 id={`/posts/${item.id}`}
               />
             ))}
