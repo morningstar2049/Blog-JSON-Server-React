@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { useParams } from "react-router-dom";
+import { withParams } from "../hoc/withParams";
 import ProfileContainer from "./ProfileContainer";
 import AddPost from "./AddPost";
 import Post from "./Post";
-
 class Profile extends Component {
   state = {
     currentProfile: {},
@@ -48,4 +47,4 @@ class Profile extends Component {
 }
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default (props) => <Profile {...props} params={useParams()} />;
+export default withParams(Profile);

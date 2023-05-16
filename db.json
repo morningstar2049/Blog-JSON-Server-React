@@ -228,7 +228,7 @@
       "content": "6767676",
       "date": "May 16th 2023, 2:08:20 pm",
       "author": "3",
-      "likes": 0,
+      "likes": 15,
       "authorId": 8,
       "id": 13
     },
@@ -237,9 +237,18 @@
       "content": "asdasd",
       "date": "May 16th 2023, 2:23:38 pm",
       "author": "3",
-      "likes": 0,
+      "likes": 20,
       "authorId": 8,
       "id": 14
+    },
+    {
+      "name": "posttt",
+      "content": "content",
+      "date": "May 16th 2023, 3:17:23 pm",
+      "author": "3",
+      "likes": 0,
+      "authorId": 8,
+      "id": 15
     }
   ]
 }
