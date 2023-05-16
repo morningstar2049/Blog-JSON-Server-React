@@ -44,12 +44,16 @@ class PostDetail extends Component {
         <div className="flex flex-col gap-5 items-center w-[80vw] min-w-[300px] m-auto p-[10px]">
           <div className="font-bold text-3xl">{this.state.post.name}</div>
           <p className="text-start">{this.state.post.content}</p>
-          <div>{this.state.post.author}</div>
-          <div>
-            <strong>Date : </strong> {this.state.post.date}
-          </div>
-          <div>
-            <strong>Likes :</strong> {this.state.post.likes?.length}
+          <div className="flex flex-col gap-2">
+            <div>
+              <strong>Author : </strong> {this.state.post.author}
+            </div>
+            <div>
+              <strong>Date : </strong> {this.state.post.date}
+            </div>
+            <div>
+              <strong>Likes :</strong> {this.state.post.likes?.length}
+            </div>
           </div>
 
           <button

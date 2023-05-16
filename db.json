@@ -124,6 +124,17 @@
       ],
       "authorId": 8,
       "id": 0
+    },
+    {
+      "name": "about me",
+      "content": "hi i am sondzgva, mostly known as \"Bokloma\", i was Prezident of Georgian Rugby Union.",
+      "date": "May 16th 2023, 5:22:34 pm",
+      "author": "sondzgva",
+      "likes": [
+        14
+      ],
+      "authorId": 14,
+      "id": 1
     }
   ]
 }
