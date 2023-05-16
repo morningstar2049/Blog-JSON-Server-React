@@ -20,7 +20,7 @@ class Profile extends Component {
       <div className=" p-[50px]">
         <div className=" flex flex-col">
           <img
-            src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg" //? Will be dynamic later
+            src={this.state.currentProfile.image}
             alt="img"
             className="w-[100px]"
           />

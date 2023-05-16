@@ -9,7 +9,18 @@ import MostLikedPosts from "./Components/MostLikedPosts";
 export default class App extends Component {
   state = {
     currentProfile: false,
+    data: [],
   };
+
+  fetchData = () => {
+    fetch("http://localhost:3000/users")
+      .then((resp) => resp.json())
+      .then((data) => this.setState({ data: data }));
+  };
+
+  componentDidMount() {
+    this.fetchData();
+  }
 
   log = (current) => {
     this.setState({ currentProfile: current });
@@ -18,10 +29,15 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Nav currentProfile={this.state.currentProfile} log={this.log} />
+        <Nav
+          data={this.state.data}
+          fetchData={this.fetchData}
+          currentProfile={this.state.currentProfile}
+          log={this.log}
+        />
 
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<Main data={this.state.data} />} />
           <Route path="/profile/:profileId" element={<Profile />} />
           <Route path="/posts/:postId" element={<Post />} />
           <Route path="/mostLikedPosts" element={<MostLikedPosts />} />

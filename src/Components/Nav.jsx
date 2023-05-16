@@ -1,24 +1,12 @@
 import React, { Component } from "react";
 import LoginModal from "./Modals/LoginModal";
 import SignUpModal from "./Modals/SignUpModal";
+import { Link } from "react-router-dom";
 
 export default class Nav extends Component {
   state = {
     loginOpen: false,
     signUpOpen: false,
-    data: [],
-  };
-
-  componentDidMount() {
-    fetch("http://localhost:3000/users")
-      .then((resp) => resp.json())
-      .then((data) => this.setState({ data: data }));
-  }
-
-  fetchData = () => {
-    fetch("http://localhost:3000/users")
-      .then((resp) => resp.json())
-      .then((data) => this.setState({ data: data }));
   };
 
   loginToggle = () => {
@@ -31,7 +19,7 @@ export default class Nav extends Component {
   render() {
     return (
       <div className="flex justify-between px-6 py-5 bg-[#343A40] items-center text-white">
-        <h2>blog</h2>
+        <Link to="/">blog</Link>
         <div className="flex gap-2">
           <h2>authors</h2>
           <h2>most liked</h2>
@@ -66,13 +54,13 @@ export default class Nav extends Component {
           open={this.state.loginOpen}
           onClose={this.loginToggle}
           log={this.props.log}
-          data={this.state.data}
+          data={this.props.data}
         />
         <SignUpModal
           open={this.state.signUpOpen}
           onClose={this.signUpToggle}
-          data={this.state.data}
-          fetchData={this.fetchData}
+          data={this.props.data}
+          fetchData={this.props.fetchData}
         />
       </div>
     );
