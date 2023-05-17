@@ -7,7 +7,7 @@ export default class MostLikedPosts extends Component {
   };
 
   componentDidMount() {
-    fetch("http://localhost:3000/posts?_sort=likes&_order=desc")
+    fetch("http://localhost:3000/posts?_sort=likes.length&_order=desc")
       .then((res) => res.json())
       .then((data) => {
         let fetchedPosts = data;
